@@ -1,5 +1,5 @@
 deployment:
   prod:
     branch: master
-    commands:
-      - git push -f git@heroku.com:intense-savannah-1210.git ${CIRCLE_BRANCH}:master
+    heroku:
+      appname: instense-savannah-1210
