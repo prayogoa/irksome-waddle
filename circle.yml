@@ -2,4 +2,4 @@ deployment:
   prod:
     branch: master
     heroku:
-      appname: instense-savannah-1210
+      appname: intense-savannah-1210
